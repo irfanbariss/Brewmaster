@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brewmaster Coffee</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-heading">
+      <figure>
+        <img
+          class="main-logo"
+          src="./images/logo.png"
+          alt="Brewmaster Coffee Logo"
+        />
+      </figure>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <button>
+            <a href="index.html">Home</a>
+          </button>
+        </li>
+        <li>
+          <button>
+            <a href="about.html">About</a>
+          </button>
+        </li>
+        <li>
+          <button>
+            <a href="numbers.html">Numbers</a>
+          </button>
+        </li>
+        <li>
+          <button>
+            <a href="contact.html">Contact</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hero-img">Brewed by masters.</div>
+      <header><h2>Contact Us</h2></header>
+      <article class="container">
+        <div class="card3">
+          <form action="/contact" method="post">
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="John"
+                required
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Doe"
+                required
+              />
+            </p>
+            <p>
+              <label for="mail">E-Mail: </label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="johndoe@gmail.com"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">GSM:</label>
+              <input type="tel" name="phone" id="phone" required />
+            </p>
+            <br />
+            <p>
+              <label for="description">Your thoughts and suggestions:</label>
+            </p>
+            <p>
+              <textarea
+                name="description"
+                id="description"
+                cols="30"
+                rows="10"
+                required
+                placeholder="Your message..."
+              ></textarea>
+            </p>
+            <p>
+              <input type="checkbox" name="tos" id="tos" required />
+              <label for="tos">I've read the user terms.</label>
+            </p>
+            <p>
+              Reply via:
+              <input type="radio" name="reply" id="sms" />
+              <label for="sms">SMS</label>
+              <input type="radio" name="reply" id="email" />
+              <label for="email">E-mail</label>
+            </p>
+            <p>
+              <button>Submit</button>
+            </p>
+          </form>
+        </div>
+      </article>
+    </main>
+    <div class="totop"><a href="#">Back to top</a></div>
+    <footer>
+      <div><img src="./images/logo.png" /></div>
+      <div>
+        <p>
+          &copy; Copyright 2023,<br />
+          All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
